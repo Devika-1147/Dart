@@ -15,5 +15,9 @@ void main() {
   
   //Index operator exampple 
   var str = "Flutter";
-  print(str[5]);
+  print("Character at fifth index in string Flutter : "+str[5]);
+
+  //for-each example
+  List<String> countryNames=['India','America','Japan','UK','Spain'];
+  countryNames.forEach( (names)=>print(names));
 }
